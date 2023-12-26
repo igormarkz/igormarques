@@ -668,7 +668,6 @@ html::-webkit-scrollbar-thumb {
   line-height: 22px;
   color: white;
   font-weight: 400;
-  text-transform: uppercase;
   margin: 0px;
   margin-bottom: 40px;
   text-align: center;
@@ -1437,14 +1436,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .skills-titulo-content h3 {
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 26px;
+  line-height: 32px;
   color: white;
   font-weight: 400;
   margin: 0px;
   text-align: center;
   letter-spacing: -1px;
   position: relative;
+  text-transform: uppercase;
 }
 
 .skills-titulo-content h3 span {
@@ -2210,7 +2210,6 @@ html::-webkit-scrollbar-thumb {
     line-height: 20px;
     color: white;
     font-weight: 400;
-    text-transform: uppercase;
     margin: 0px;
     margin-bottom: 30px;
     text-align: center;
