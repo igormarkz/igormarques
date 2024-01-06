@@ -2047,6 +2047,7 @@ html::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     background-size: 80%;
+    background: none !important;
   }
 
   .apresentacao-content {
