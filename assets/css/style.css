@@ -9,7 +9,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   background: #08040e;
   overflow: hidden;
-  max-width: 1680px;
+  max-width: 1760px;
   margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ html::-webkit-scrollbar-thumb {
 
 .header-container {
   width: 100%;
-  max-width: 1680px;
+  max-width: 1760px;
   height: 80px;
   margin: 0 auto;
   padding: 0px;
