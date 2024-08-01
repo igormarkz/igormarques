@@ -541,8 +541,8 @@ html::-webkit-scrollbar-thumb {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   transition: 0.4s ease all;
-  background: #FFFFFF;
-  padding: 2px 9px;
+  background: #161b22;
+  padding: 0px 6px;
   border-radius: 5px;
   transform: translateX(0px);
   transition: 0.4s ease all;
