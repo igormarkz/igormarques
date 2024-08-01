@@ -2466,7 +2466,7 @@ html::-webkit-scrollbar-thumb {
   .btn-apresentacao {
     color: white;
     padding: 0px 20px 0px 0px;
-    width: 200px;
+    width: 180px;
     height: 30px;
     background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, rgba(75, 110, 209, 1) 12%, rgba(75, 110, 209, 1) 86%, rgba(75, 110, 209, 0) 86%);
     margin-top: 20px;
