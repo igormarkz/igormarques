@@ -958,6 +958,8 @@ html::-webkit-scrollbar-thumb {
   -webkit-animation: animabtninverse 0.3s both;
   animation: animabtninverse 0.3s both;
   border: 1px solid transparent;
+  opacity: 1;
+  transition: 0.3s ease all;
 }
 
 .card-arrow {
@@ -979,6 +981,8 @@ html::-webkit-scrollbar-thumb {
   animation: animabtn 0.3s both;
   background: linear-gradient(90deg, rgba(75, 110, 209, 1) 0%, rgba(35, 66, 153, 1) 100%);
   border: 1px solid #4b6ed1;
+  opacity: 1;
+  transition: 0.3s ease all;
 }
 
 
