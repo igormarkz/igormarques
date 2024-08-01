@@ -1374,6 +1374,7 @@ html::-webkit-scrollbar-thumb {
   box-sizing: border-box;
   transform: translateX(-15px);
   border-radius: 22px;
+  border: 1px solid #4b6ed1;
 }
 
 .btn-apresentacao-hover {
@@ -2473,7 +2474,7 @@ html::-webkit-scrollbar-thumb {
     padding: 0px 20px 0px 0px;
     width: 180px;
     height: 30px;
-    background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, rgba(75, 110, 209, 1) 12%, rgba(75, 110, 209, 1) 86%, rgba(75, 110, 209, 0) 86%);
+    background: linear-gradient(90deg, rgba(75, 110, 209, 1) 0%, rgba(35, 66, 153, 1) 100%);
     margin-top: 20px;
     font-weight: 400;
     text-decoration: none;
