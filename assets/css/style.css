@@ -2047,7 +2047,7 @@ html::-webkit-scrollbar-thumb {
   }
 
   .card-xp {
-    padding: 15px;
+    padding: 15px !important;
   }
 
   .apresentacao-container {
@@ -2300,7 +2300,7 @@ html::-webkit-scrollbar-thumb {
   }
 
   .apresentacao-p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     font-weight: 300;
     text-align: left;
