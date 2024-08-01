@@ -1360,9 +1360,9 @@ html::-webkit-scrollbar-thumb {
 
 .btn-apresentacao {
   padding: 0px 20px 0px 0px;
-  width: 255px;
+  width: 230px;
   height: 45px;
-  background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, rgba(75, 110, 209, 1) 12%, rgba(75, 110, 209, 1) 86%, rgba(75, 110, 209, 0) 86%);
+  background: linear-gradient(90deg, rgba(75, 110, 209, 1) 0%, rgba(35, 66, 153, 1) 100%);
   margin-top: 25px;
   font-weight: 400;
   text-decoration: none;
@@ -1373,17 +1373,19 @@ html::-webkit-scrollbar-thumb {
   position: relative;
   box-sizing: border-box;
   transform: translateX(-15px);
+  border-radius: 22px;
 }
 
 .btn-apresentacao-hover {
   width: 100%;
   max-height: 0px;
   height: 100%;
-  background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, white 12%, white 86%, rgba(75, 110, 209, 0) 86%);
+  background: #FFFFFF;
   position: absolute;
   top: 0px;
   left: 0px;
   transition: 0.4s ease all;
+  border-radius: 22px;
 }
 
 .btn-apresentacao-texto {
@@ -2028,8 +2030,7 @@ html::-webkit-scrollbar-thumb {
     padding: 0px;
     width: 155px;
     height: 40px;
-    background: rgb(155, 7, 150);
-    background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, rgba(75, 110, 209, 1) 12%, rgba(75, 110, 209, 1) 86%, rgba(75, 110, 209, 0) 86%);
+    background: linear-gradient(90deg, rgba(75, 110, 209, 1) 0%, rgba(35, 66, 153, 1) 100%);
     margin-top: 20px;
     font-weight: 400;
     text-decoration: none;
@@ -2037,6 +2038,7 @@ html::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     transition: 0.4s ease all;
+    border-radius: 20px;
   }
 
   .btn-apresentacao-texto {
