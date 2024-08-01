@@ -537,18 +537,18 @@ html::-webkit-scrollbar-thumb {
 .sobre-mim-card-texto {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 200;
-  color: #4b6ed1;
+  font-weight: 400;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   transition: 0.4s ease all;
-  background: #161b22;
+  background: #4b6ed175;
   padding: 2px 9px;
   border-radius: 5px;
   transform: translateX(0px);
   transition: 0.4s ease all;
   letter-spacing: 1px;
   margin-top: 6px;
+  color: white;
 }
 
 .sobre-mim-box-2 {
@@ -655,7 +655,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .projetos-title {
-  font-size: 30px;
+  font-size: 38px;
   line-height: 38px;
   color: #4b6ed1;
   font-weight: 500;
@@ -1441,7 +1441,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .skills-titulo-content h3 {
-  font-size: 26px;
+  font-size: 38px;
   line-height: 32px;
   color: white;
   font-weight: 400;
