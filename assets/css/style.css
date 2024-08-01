@@ -958,7 +958,7 @@ html::-webkit-scrollbar-thumb {
   -webkit-animation: animabtninverse 0.3s both;
   animation: animabtninverse 0.3s both;
   border: 1px solid transparent;
-  opacity: 1;
+  opacity: 0;
   transition: 0.3s ease all;
 }
 
