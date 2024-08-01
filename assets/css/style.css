@@ -136,14 +136,13 @@ html::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   margin: 0px;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 200;
   line-height: 20px;
   color: #f4f0f1;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 5px 20px;
+  letter-spacing: 2px;
+  padding: 5px 15px;
   border-radius: 15px;
   transition: 0.4s ease all;
   border-bottom: 1px solid transparent;
@@ -191,8 +190,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .numero-box p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 20px;
   color: #f4f0f1;
   letter-spacing: 1px;
@@ -229,7 +228,7 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   height: 80vh;
   min-height: 565px;
-  max-height: 650px;
+  max-height: 735px;
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -469,7 +468,7 @@ html::-webkit-scrollbar-thumb {
 .sobre-mim-content {
   width: 1080px;
   height: 100%;
-  padding: 80px 20px;
+  padding: 100px 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -495,6 +494,7 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .sobre-mim-icone {
@@ -535,18 +535,20 @@ html::-webkit-scrollbar-thumb {
 }
 
 .sobre-mim-card-texto {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
-  font-weight: 500;
+  font-weight: 200;
   color: #4b6ed1;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   transition: 0.4s ease all;
   background: #161b22;
-  padding: 0px 7px;
+  padding: 2px 9px;
   border-radius: 5px;
   transform: translateX(0px);
   transition: 0.4s ease all;
+  letter-spacing: 1px;
+  margin-top: 6px;
 }
 
 .sobre-mim-box-2 {
@@ -563,11 +565,12 @@ html::-webkit-scrollbar-thumb {
 .sobre-mim-titulo {
   font-size: 40px;
   line-height: 50px;
-  font-weight: 400;
+  font-weight: 200;
   color: white;
   margin: 0px;
   margin-bottom: 15px;
   font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }
 
 .sobre-mim-titulo span {
@@ -577,14 +580,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .sobre-mim-texto {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 200;
   color: #ffffffcc;
   margin: 0px;
   text-align: left;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .linha-sobre {
@@ -942,9 +946,10 @@ html::-webkit-scrollbar-thumb {
   text-decoration: none;
   background: transparent;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 1px;
   cursor: pointer;
   overflow: hidden;
   position: absolute;
@@ -973,7 +978,7 @@ html::-webkit-scrollbar-thumb {
 .projetos-card:hover .projetos-card-botao {
   -webkit-animation: animabtn 0.3s both;
   animation: animabtn 0.3s both;
-  background: #4b6ed1;
+  background: linear-gradient(90deg, rgba(75, 110, 209, 1) 0%, rgba(35, 66, 153, 1) 100%);
   border: 1px solid #4b6ed1;
 }
 
@@ -1229,14 +1234,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer-container p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
   color: #4b6ed1;
   font-weight: 400;
   text-align: center;
   padding: 8px 13px;
-  border: 1px solid #4b6ed1;
+  border: none;
   border-radius: 11px;
+  letter-spacing: 1px;
 }
 
 .carregando {
@@ -1319,15 +1325,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .apresentacao-h1 {
-  font-size: 42px;
+  font-size: 50px;
   line-height: 48px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: white;
   font-family: 'Poppins', sans-serif;
   border-radius: 1px;
-  letter-spacing: -1px;
 }
 
 .apresentacao-h1 span {
@@ -1336,13 +1341,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .apresentacao-p {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 300;
   text-align: left;
   color: white;
   border-radius: 1px;
   font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }
 
 .apresentacao-p span {
@@ -1352,10 +1358,10 @@ html::-webkit-scrollbar-thumb {
 
 .btn-apresentacao {
   padding: 0px 20px 0px 0px;
-  width: 175px;
+  width: 255px;
   height: 45px;
   background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, rgba(75, 110, 209, 1) 12%, rgba(75, 110, 209, 1) 86%, rgba(75, 110, 209, 0) 86%);
-  margin-top: 20px;
+  margin-top: 25px;
   font-weight: 400;
   text-decoration: none;
   display: flex;
@@ -1473,7 +1479,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .skills-aba-box {
-  width: 200px;
+  width: 250px;
   height: 350px;
   padding: 0px;
   margin: 0px;
@@ -1492,14 +1498,16 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   border-left: 4px solid transparent;
   background-color: #101013;
   cursor: pointer;
   transition: 0.4s ease all;
   border-bottom: 1px solid #161b22;
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .skills-aba:last-child {
@@ -1519,7 +1527,7 @@ html::-webkit-scrollbar-thumb {
 
 .skills-resume-box {
   background-color: #101013;
-  width: 400px;
+  width: 550px;
   height: 350px;
   padding: 0px;
   display: flex;
@@ -1530,6 +1538,7 @@ html::-webkit-scrollbar-thumb {
   color: white;
   line-height: 24px;
   border-left: 1px solid #161b22;
+  letter-spacing: 1px
 }
 
 .skills-resume {
@@ -2627,7 +2636,7 @@ html::-webkit-scrollbar-thumb {
 .card-xp {
   width: auto;
   height: auto;
-  padding: 20px;
+  padding: 35px;
   margin: 0px;
   margin-bottom: 30px;
   display: flex;
@@ -2658,7 +2667,7 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
   color: #4b6ed1;
@@ -2680,7 +2689,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .xp-subtitulo {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #ffffffcc;
@@ -2708,11 +2717,11 @@ html::-webkit-scrollbar-thumb {
 .xp-lista {
   list-style-position: inside !important;
   list-style: circle;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .xp-lista li {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   color: #ffffffcc;
@@ -2742,7 +2751,7 @@ html::-webkit-scrollbar-thumb {
 
 .xp-competencia-box::before {
   content: "Competências";
-  font-size: 11px;
+  font-size: 13px;
   line-height: 18px;
   font-weight: 400;
   color: #ffffffcc;
