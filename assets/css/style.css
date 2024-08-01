@@ -1369,6 +1369,7 @@ html::-webkit-scrollbar-thumb {
   transition: 0.4s ease all;
   position: relative;
   box-sizing: border-box;
+  transform: translateX(-15px);
 }
 
 .btn-apresentacao-hover {
@@ -2044,6 +2045,10 @@ html::-webkit-scrollbar-thumb {
     transition: 0.4s ease all;
   }
 
+  .card-xp {
+    padding: 15px;
+  }
+
   .apresentacao-container {
     width: 100%;
     margin: 0px;
@@ -2444,7 +2449,7 @@ html::-webkit-scrollbar-thumb {
   }
 
   .apresentacao-p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     font-weight: 300;
     text-align: left;
@@ -2460,9 +2465,8 @@ html::-webkit-scrollbar-thumb {
   .btn-apresentacao {
     color: white;
     padding: 0px 20px 0px 0px;
-    width: 150px;
-    height: 35px;
-    background: rgb(155, 7, 150);
+    width: 200px;
+    height: 30px;
     background: linear-gradient(65deg, rgba(254, 254, 254, 0) 12%, rgba(75, 110, 209, 1) 12%, rgba(75, 110, 209, 1) 86%, rgba(75, 110, 209, 0) 86%);
     margin-top: 20px;
     font-weight: 400;
