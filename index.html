@@ -584,6 +584,9 @@
           <div class="skills-aba" onclick="javascript()" id="aba-javascript">
             JavaScript
           </div>
+          <div class="skills-aba" onclick="vue()" id="aba-vue">
+            Vue.js
+          </div>
           <div class="skills-aba" onclick="wordpress()" id="aba-wordpress">
             WordPress
           </div>
@@ -614,6 +617,9 @@
             desenvolvimento web, proporcionando interatividade e manipulação
             dinâmica de conteúdo nos navegadores. Também é utilizado no lado do
             servidor com Node.js para aplicações mais abrangentes.
+          </div>
+          <div class="skills-resume" id="vue">
+            Vue.js é um framework JavaScript para criar interfaces de usuário. Ele é fácil de usar, reativo, e atualiza a interface automaticamente quando os dados mudam.
           </div>
           <div class="skills-resume" id="wordpress">
             WordPress é uma plataforma fácil de usar para criar e gerenciar
@@ -827,6 +833,27 @@
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.add("border");
+    document.getElementById("aba-php").classList.remove("border");
+    document.getElementById("aba-laravel").classList.remove("border");
+    document.getElementById("aba-bootstrap").classList.remove("border");
+    document.getElementById("aba-wordpress").classList.remove("border");
+    document.getElementById("aba-mysql").classList.remove("border");
+  }
+
+  function vue() {
+    document.getElementById("html").classList.remove("visivel");
+    document.getElementById("css").classList.remove("visivel");
+    document.getElementById("javascript").classList.remove("visivel");
+    document.getElementById("vue").classList.add("visivel");
+    document.getElementById("php").classList.remove("visivel");
+    document.getElementById("laravel").classList.remove("visivel");
+    document.getElementById("bootstrap").classList.remove("visivel");
+    document.getElementById("wordpress").classList.remove("visivel");
+    document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-javascript").classList.remove("border");
+    document.getElementById("aba-vue").classList.add("border");
     document.getElementById("aba-php").classList.remove("border");
     document.getElementById("aba-laravel").classList.remove("border");
     document.getElementById("aba-bootstrap").classList.remove("border");
