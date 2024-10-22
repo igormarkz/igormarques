@@ -1487,7 +1487,7 @@ html::-webkit-scrollbar-thumb {
 
 .skills-aba-box {
   width: 300px;
-  height: 350px;
+  height: 525px;
   padding: 0px;
   margin: 0px;
   background-color: #0c0c0e;
@@ -1535,7 +1535,7 @@ html::-webkit-scrollbar-thumb {
 .skills-resume-box {
   background-color: #101013;
   width: 600px;
-  height: 350px;
+  height: 525px;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -1551,7 +1551,7 @@ html::-webkit-scrollbar-thumb {
 
 .skills-resume {
   display: none;
-  padding: 30px;
+  padding: 100px 30px;
   width: 100%;
   height: auto;
   background-color: #131517;
@@ -2425,7 +2425,7 @@ html::-webkit-scrollbar-thumb {
   }
 
   .skills-resume {
-    padding: 30px 20px;
+    padding: 45px 20px;
     background-color: transparent;
   }
 
