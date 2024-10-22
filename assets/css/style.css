@@ -546,7 +546,6 @@ html::-webkit-scrollbar-thumb {
   transform: translateX(0px);
   transition: 0.4s ease all;
   letter-spacing: 1px;
-  margin-top: 6px;
   color: #4b6ed1;
 }
 
@@ -1629,17 +1628,17 @@ html::-webkit-scrollbar-thumb {
   }
 
   .menu-box {
-    width: 280px;
-    height: 250px;
+    width: 100%;
+    height: 278px;
     max-height: 0px;
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000000d8;
+    background: #4b6ed1;
     position: absolute;
-    top: 100px;
+    top: 100%;
     right: 20px;
     box-sizing: border-box;
     transition: 0.3s ease all;
@@ -1648,12 +1647,12 @@ html::-webkit-scrollbar-thumb {
   }
 
   .mostrar-menu {
-    max-height: 250px;
+    max-height: 278px;
     transition: 0.3s ease all;
   }
 
   .menu-box ul {
-    width: auto;
+    width: 100%;
     height: 100%;
     list-style: none;
     margin: 0px;
@@ -1667,7 +1666,7 @@ html::-webkit-scrollbar-thumb {
   .menu-box ul li {
     width: 100%;
     height: auto;
-    padding: 10px 0px;
+    padding: 0px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -1682,20 +1681,25 @@ html::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding: 0px;
-    font-size: 16px;
-    font-weight: 400;
+    padding: 13px 0px;
+    font-size: 18px;
+    font-weight: 700;
     line-height: 20px;
-    color: #f4f0f1;
+    color: #0e0e0e;
     text-decoration: none;
     letter-spacing: 1px;
     border: none;
+    text-transform: uppercase;
+    background-color: #4b6ed1;
+    transition: 0.5s ease all;
   }
 
   .menu-box ul li a:hover {
     font-weight: 400;
-    color: #4b6ed1;
+    color: #0e0e0e;
     border: none;
+    background-color: #4b6ed1;
+    transition: 0.5s ease all;
   }
 
   .numero-box {
