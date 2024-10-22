@@ -1554,7 +1554,7 @@ html::-webkit-scrollbar-thumb {
   padding: 100px 30px;
   width: 100%;
   height: auto;
-  background-color: #131517;
+  background-color: transparent;
 }
 
 .visivel {
@@ -2426,7 +2426,6 @@ html::-webkit-scrollbar-thumb {
 
   .skills-resume {
     padding: 45px 20px;
-    background-color: transparent;
   }
 
   .skills-titulo-content h3 {
