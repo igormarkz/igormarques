@@ -581,6 +581,9 @@
           <div class="skills-aba" onclick="css()" id="aba-css">
             CSS
           </div>
+          <div class="skills-aba" onclick="sass()" id="aba-sass">
+            SASS
+          </div>
           <div class="skills-aba" onclick="javascript()" id="aba-javascript">
             JavaScript
           </div>
@@ -599,6 +602,7 @@
           </div>
           <div class="skills-aba" onclick="mysql()" id="aba-mysql">MySQL</div>
           <div class="skills-aba" onclick="pgsql()" id="aba-pgsql">PostgreSQL</div>
+          <div class="skills-aba" onclick="git()" id="aba-git">GIT</div>
         </div>
         <div class="skills-resume-box">
           <div class="skills-resume" id="html">
@@ -612,6 +616,9 @@
             permitindo o controle de cor, fonte, espaçamento e posicionamento.
             CSS é crucial para a apresentação visual e a formatação de páginas
             na web.
+          </div>
+          <div class="skills-resume" id="sass">
+            SASS é uma linguagem de extensão do CSS que permite escrever estilos de forma mais eficiente, com recursos como variáveis, aninhamento e mixins, facilitando a manutenção e reaproveitamento de código.
           </div>
           <div class="skills-resume" id="javascript">
             JavaScript é uma linguagem de programação fundamental para
@@ -652,6 +659,9 @@
           </div>
           <div class="skills-resume" id="pgsql">
             PostgreSQL é um banco de dados relacional open-source, conhecido por sua robustez, escalabilidade e suporte a dados complexos, como JSON.
+          </div>
+          <div class="skills-resume" id="pgsql">
+            Git é um sistema de controle de versão distribuído que permite gerenciar e acompanhar mudanças em projetos de forma colaborativa, garantindo histórico e recuperação de versões.
           </div>
         </div>
       </div>
@@ -790,6 +800,7 @@
   function html() {
     document.getElementById("html").classList.add("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
     document.getElementById("laravel").classList.remove("visivel");
@@ -798,8 +809,10 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.add("border");
     document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-sass").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
     document.getElementById("aba-php").classList.remove("border");
@@ -808,11 +821,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function css() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.add("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
     document.getElementById("laravel").classList.remove("visivel");
@@ -821,8 +836,10 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.add("border");
+    document.getElementById("aba-sass").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
     document.getElementById("aba-php").classList.remove("border");
@@ -831,11 +848,40 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
+  }
+
+  function sass() {
+    document.getElementById("html").classList.remove("visivel");
+    document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.add("visivel");
+    document.getElementById("javascript").classList.remove("visivel");
+    document.getElementById("php").classList.remove("visivel");
+    document.getElementById("laravel").classList.remove("visivel");
+    document.getElementById("vue").classList.remove("visivel");
+    document.getElementById("bootstrap").classList.remove("visivel");
+    document.getElementById("wordpress").classList.remove("visivel");
+    document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
+    document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-sass").classList.add("border");
+    document.getElementById("aba-javascript").classList.remove("border");
+    document.getElementById("aba-vue").classList.remove("border");
+    document.getElementById("aba-php").classList.remove("border");
+    document.getElementById("aba-laravel").classList.remove("border");
+    document.getElementById("aba-bootstrap").classList.remove("border");
+    document.getElementById("aba-wordpress").classList.remove("border");
+    document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function javascript() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.add("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -844,7 +890,9 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.add("border");
     document.getElementById("aba-vue").classList.remove("border");
@@ -854,11 +902,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function vue() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.add("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -867,7 +917,9 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.add("border");
@@ -877,11 +929,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function wordpress() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -890,7 +944,9 @@
     document.getElementById("wordpress").classList.add("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
@@ -900,11 +956,13 @@
     document.getElementById("aba-wordpress").classList.add("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function php() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.add("visivel");
@@ -913,7 +971,9 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
@@ -923,11 +983,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function laravel() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -936,7 +998,9 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
@@ -946,11 +1010,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function bootstrap() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -959,7 +1025,9 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
@@ -969,11 +1037,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function mysql() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -982,7 +1052,9 @@
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.add("visivel");
     document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
@@ -992,11 +1064,13 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.add("border");
     document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.remove("border");
   }
 
   function pgsql() {
     document.getElementById("html").classList.remove("visivel");
     document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
     document.getElementById("javascript").classList.remove("visivel");
     document.getElementById("vue").classList.remove("visivel");
     document.getElementById("php").classList.remove("visivel");
@@ -1007,6 +1081,7 @@
     document.getElementById("pgsql").classList.add("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
     document.getElementById("aba-vue").classList.remove("border");
     document.getElementById("aba-php").classList.remove("border");
@@ -1015,6 +1090,33 @@
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
     document.getElementById("aba-pgsql").classList.add("border");
+  }
+
+  function git() {
+    document.getElementById("html").classList.remove("visivel");
+    document.getElementById("css").classList.remove("visivel");
+    document.getElementById("sass").classList.remove("visivel");
+    document.getElementById("javascript").classList.remove("visivel");
+    document.getElementById("vue").classList.remove("visivel");
+    document.getElementById("php").classList.remove("visivel");
+    document.getElementById("laravel").classList.remove("visivel");
+    document.getElementById("bootstrap").classList.remove("visivel");
+    document.getElementById("wordpress").classList.remove("visivel");
+    document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
+    document.getElementById("git").classList.add("visivel");
+    document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-javascript").classList.remove("border");
+    document.getElementById("aba-vue").classList.remove("border");
+    document.getElementById("aba-php").classList.remove("border");
+    document.getElementById("aba-laravel").classList.remove("border");
+    document.getElementById("aba-bootstrap").classList.remove("border");
+    document.getElementById("aba-wordpress").classList.remove("border");
+    document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
+    document.getElementById("aba-git").classList.add("border");
   }
 </script>
 
