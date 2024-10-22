@@ -598,6 +598,7 @@
             Bootstrap
           </div>
           <div class="skills-aba" onclick="mysql()" id="aba-mysql">MySQL</div>
+          <div class="skills-aba" onclick="pgsql()" id="aba-pgsql">PostgreSQL</div>
         </div>
         <div class="skills-resume-box">
           <div class="skills-resume" id="html">
@@ -648,6 +649,9 @@
             MySQL é um sistema de gerenciamento de banco de dados relacional de
             código aberto, amplamente usado para armazenar e recuperar dados de
             maneira eficiente em aplicações web e diversas outras soluções.
+          </div>
+          <div class="skills-resume" id="pgsql">
+            PostgreSQL é um banco de dados relacional open-source, conhecido por sua robustez, escalabilidade e suporte a dados complexos, como JSON.
           </div>
         </div>
       </div>
@@ -792,6 +796,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.add("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -801,6 +806,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function css() {
@@ -813,6 +819,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.add("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -822,6 +829,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function javascript() {
@@ -834,6 +842,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.add("border");
@@ -843,6 +852,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function vue() {
@@ -855,6 +865,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -864,6 +875,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function wordpress() {
@@ -876,6 +888,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.add("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -885,6 +898,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.add("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function php() {
@@ -897,6 +911,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -906,6 +921,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function laravel() {
@@ -918,6 +934,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -927,6 +944,7 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function bootstrap() {
@@ -939,6 +957,7 @@
     document.getElementById("bootstrap").classList.add("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -948,6 +967,7 @@
     document.getElementById("aba-bootstrap").classList.add("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
   }
 
   function mysql() {
@@ -960,6 +980,7 @@
     document.getElementById("bootstrap").classList.remove("visivel");
     document.getElementById("wordpress").classList.remove("visivel");
     document.getElementById("mysql").classList.add("visivel");
+    document.getElementById("pgsql").classList.remove("visivel");
     document.getElementById("aba-html").classList.remove("border");
     document.getElementById("aba-css").classList.remove("border");
     document.getElementById("aba-javascript").classList.remove("border");
@@ -969,6 +990,30 @@
     document.getElementById("aba-bootstrap").classList.remove("border");
     document.getElementById("aba-wordpress").classList.remove("border");
     document.getElementById("aba-mysql").classList.add("border");
+    document.getElementById("aba-pgsql").classList.remove("border");
+  }
+
+  function pgsql() {
+    document.getElementById("html").classList.remove("visivel");
+    document.getElementById("css").classList.remove("visivel");
+    document.getElementById("javascript").classList.remove("visivel");
+    document.getElementById("vue").classList.remove("visivel");
+    document.getElementById("php").classList.remove("visivel");
+    document.getElementById("laravel").classList.remove("visivel");
+    document.getElementById("bootstrap").classList.remove("visivel");
+    document.getElementById("wordpress").classList.remove("visivel");
+    document.getElementById("mysql").classList.remove("visivel");
+    document.getElementById("pgsql").classList.add("visivel");
+    document.getElementById("aba-html").classList.remove("border");
+    document.getElementById("aba-css").classList.remove("border");
+    document.getElementById("aba-javascript").classList.remove("border");
+    document.getElementById("aba-vue").classList.remove("border");
+    document.getElementById("aba-php").classList.remove("border");
+    document.getElementById("aba-laravel").classList.remove("border");
+    document.getElementById("aba-bootstrap").classList.remove("border");
+    document.getElementById("aba-wordpress").classList.remove("border");
+    document.getElementById("aba-mysql").classList.remove("border");
+    document.getElementById("aba-pgsql").classList.add("border");
   }
 </script>
 
