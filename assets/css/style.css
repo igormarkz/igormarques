@@ -1690,7 +1690,7 @@ html::-webkit-scrollbar-thumb {
     letter-spacing: 1px;
     border: none;
     text-transform: uppercase;
-    background-color: #4b6ed1;
+    background-color: transparent;
     border-radius: 0px;
     transition: 0.5s ease all;
   }
